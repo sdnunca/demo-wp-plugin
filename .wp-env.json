@@ -1,0 +1,9 @@
+{
+	"core": "https://wordpress.org/wordpress-6.2.2.zip",
+	"plugins": [ ".", "WordPress/gutenberg#trunk" ],
+	"port": 8888,
+	"testsPort": 8889,
+	"config": {
+		"WP_DEBUG_DISPLAY": true
+	}
+}

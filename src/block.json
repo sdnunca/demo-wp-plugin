@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "demo-ai-plugin/ai-content",
+	"version": "0.1.0",
+	"title": "OpenAI Block",
+	"category": "text",
+	"icon": "smiley",
+	"description": "Custom AI content block",
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "text",
+			"selector": "div"
+		},
+		"prompt": {
+			"type": "string",
+			"source": "text"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "demo-wp-plugin",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
